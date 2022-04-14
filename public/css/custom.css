@@ -43,7 +43,9 @@
     background-color: #3a0ca3
   }
 
-
+  .fa-bars {
+    font-size: 25px;
+  }
 
 
 
@@ -75,7 +77,7 @@
       display: none;
     }
     .fa-bars {
-      font-size: 22px;
+      font-size: 25px;
     }
     .ack-name {
       font-size: 12px;
