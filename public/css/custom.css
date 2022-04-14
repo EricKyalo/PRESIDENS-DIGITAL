@@ -249,7 +249,7 @@ width: 100%;
         rgba(15, 15, 14, 0.5),
         rgba(14, 12, 11, 0.8)
       ),
-      url(/images/branding2.jpg);
+      url(/images/brand.jpg);
     background-position: center;
     background-size: cover;
     overflow: hidden;
@@ -259,7 +259,7 @@ width: 100%;
   .teens:hover {
     transform: scale(1.05);
     color: transparent;
-    background-image: url(/images/branding2.jpg);
+    background-image: url(/images/brand.jpg);
   }
   .kids {
     background-image: linear-gradient(rgba(32, 28, 23, 0.4), rgba(5, 5, 5, 0.8)),
