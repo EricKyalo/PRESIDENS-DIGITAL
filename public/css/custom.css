@@ -92,7 +92,7 @@
     height: 500px;
     object-fit: cover;
   }
-  h1 {
+  h2 {
     color: #ca6702;
   }
   .blue {
@@ -154,7 +154,7 @@ width: 100%;
   }
   
   /* Ministries section */
-  #ministries {
+  #our-services {
     min-height: 100vh;
     background-color: #fff;
   }
