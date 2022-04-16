@@ -23,7 +23,7 @@
      
   }
 .presidens {
-  font-size: 16px;
+  font-size: 19px;
 }
 
   /* footer */
@@ -108,17 +108,23 @@
 width: 100%;
 }
 
-
+.dmpic {
+  background-color: #fff;
+}
 
 
   /* About Section */
   .about {
     background-color: #fff;
     background-color: #023047;
+    background-color: #3a0ca3;
   }
   .about-h4 {
-    color: #ca6702;
+   
+    color: #ffb703;
+    color: #ffd60a;
   }
+  
   .about-txt {
     font-family: "Domine", serif;
   }
@@ -156,7 +162,7 @@ width: 100%;
   /* Ministries section */
   #our-services {
     min-height: 100vh;
-    background-color: #fff;
+    background-color: #ebebeb;
   }
   .grid-wrapper {
     display: grid;
@@ -318,6 +324,7 @@ width: 100%;
     .fellowship {
       width: 100%;
     }
+   
     .men {
       width: 100%;
       height: 360px;
