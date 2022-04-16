@@ -114,7 +114,10 @@ width: 100%;
 .dmpic {
   background-color: #fff;
 }
-
+.toilet {
+  border-radius: 10px;
+  margin: auto;
+}
 
   /* About Section */
   .about {
@@ -344,7 +347,7 @@ width: 100%;
 
   /* gkhcvkhcc */
  .purple {
-   background-color: #3a0ca3;
+   background-color: #2196f3;
    
  } 
 
@@ -363,11 +366,11 @@ footer#site-footer {
     width: 960px;
     background: #2196f3;
     padding: 1rem;
-    color: #a8a8a8;
+    color: #ffd60a;
 }
 
 footer#site-footer a {
-    color: #a8a8a8;
+  color: #ffd60a;
 }
 
 footer#site-footer a:hover {
@@ -424,7 +427,7 @@ footer#site-footer .footer-top-menu-item-active a {
 }
 
 footer#site-footer .footer-top-menu-item-active a:hover {
-    color: #00c3ce;
+    color: #ffd60a;
 }
 
 footer#site-footer .footer-top-menu-item-active::before {
@@ -437,7 +440,7 @@ footer#site-footer .footer-top-menu-item-active::before {
 }
 
 footer#site-footer .footer-top-menu-item-active:hover::before {
-    background: #00c3ce;
+    background: #ffd60a;
     transition-duration: 0.6s;
 }
 
@@ -448,12 +451,13 @@ footer#site-footer #footer-buttons-container {
 
 footer#site-footer a.footer-button {
     background: transparent;
-    border: 0.15rem solid #a8a8a8;
+    border: 0.15rem solid #ffd60a;
     border-radius: 1.38rem;
     padding: 0.5rem 1rem;
     font-weight: bold;
     text-decoration: none;
     display: inline-block;
+    display: none;
 }
 
 footer#site-footer a.footer-button:hover {
@@ -518,12 +522,15 @@ footer#site-footer #footer-about a.footer-button {
 footer#site-footer section.horizontal-footer-section#footer-bottom-section {
     padding: 1.32rem 0;
     margin: 2rem 2rem 1.32rem 2rem;
-    border-top: 0.05rem solid #666666;
+    
+    border-top: 0.05rem solid #ca6702;
 }
 
 footer#site-footer #footer-social-buttons {
     justify-self: flex-end;
     margin-left: auto;
+    color: #ffd60a;
+    font-size: 25px;
 }
 
 footer#site-footer #footer-social-buttons img {
@@ -538,10 +545,6 @@ footer#site-footer #footer-social-buttons img:hover {
   font-size: 13px;
   display: none
 }
-
-
-
-
 
 
 @media screen and (max-width: 959px) {
@@ -563,7 +566,7 @@ footer#site-footer #footer-social-buttons img:hover {
     footer#site-footer ul li {
         display: block !important;
         padding: 1em !important;
-        border-top: 1px solid #555555;
+        border-top: 1px solid #fff;
         border-bottom: none;
         border-left: none;
         border-right: none;
@@ -579,6 +582,7 @@ footer#site-footer #footer-social-buttons img:hover {
         text-align: center;
         max-width: 350px;
         margin: 0.32rem auto;
+        display: none;
     }
 
     footer#site-footer section.horizontal-footer-section#footer-top-section div {
