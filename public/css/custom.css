@@ -19,7 +19,7 @@
     font-size: 8px;
   }
   nav {
-      background-color: #3a0ca3;
+      background-color: #2196f3;
      
   }
 .presidens {
@@ -40,7 +40,7 @@
   }
 
   .footers {
-    background-color: #3a0ca3
+    background-color: #2196f3;
   }
 
   .fa-bars {
@@ -82,6 +82,9 @@
     .ack-name {
       font-size: 12px;
     }
+    .presidens {
+      font-size: 13px;
+    }
   }
   .btn-color {
     background-color: #f48c06;
@@ -117,7 +120,7 @@ width: 100%;
   .about {
     background-color: #fff;
     background-color: #023047;
-    background-color: #3a0ca3;
+    background-color: #2196f3;
   }
   .about-h4 {
    
@@ -358,7 +361,7 @@ body {
 footer#site-footer {
     margin: 0 auto;
     width: 960px;
-    background: #3a0ca3;
+    background: #2196f3;
     padding: 1rem;
     color: #a8a8a8;
 }
