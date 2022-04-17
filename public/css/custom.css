@@ -11,6 +11,7 @@
   /* Nav Section */
   .logo {
     width: 30px;
+    border-radius: 5px;
   }
   .digital {
     color: goldenrod;
@@ -28,7 +29,8 @@
 
   /* footer */
   .lgo {
-    width: 50px;
+    width: 40px;
+    border-radius: 5px;
   }
   .digital {
     color: goldenrod;
