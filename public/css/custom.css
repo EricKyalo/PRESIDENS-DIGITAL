@@ -52,19 +52,10 @@
 
 
 
-
-
-
-
-
-
-
-
-
   .btn-nav {
     background-color: #000;
     color: #fff;
-    outline: 2px solid #000;
+    border-radius: 30px;
   }
   .btn-nav:hover {
     background-color: transparent;
@@ -654,4 +645,50 @@ footer#site-footer #footer-social-buttons img:hover {
         margin-top: 1.32rem;
     }
 }
+
+/* COURSE SECTION */
+.course-head {
+  background-image: linear-gradient(rgba(44, 56, 98, 0.85), rgba(19, 38, 163, 0.63)),
+  url(/images/head2.jpg);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+.card {
+  z-index: 1;
+  background-color: #e8e8e8;
+}
+
+.card:hover {
+  background-color: #fff;
+}
+
+.list {
+  list-style: none;
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: all .3s ease;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  transition: transform .5s ease;
+}
+
+.hide {
+  visibility: visible;
+  height: 100%;
+  transform: scaleY(1);
+  transition: all .3s ease;
+}
+
 

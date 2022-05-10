@@ -52,6 +52,9 @@ app.use(express.static(path.join(__dirname, "public")))
 // index router home page
 app.use("/", require("./server/routes/index"));
 
+// course router
+app.use("/", require("./server/routes/course"));
+
 const port = process.env.PORT || 8080;
 
 app.listen(port, () =>{
