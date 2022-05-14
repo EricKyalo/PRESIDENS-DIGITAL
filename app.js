@@ -6,10 +6,16 @@ const session = require("express-session");
 const methodOverride = require("method-override")
 const flash = require("connect-flash");
 const MemoryStore = require("memorystore")(session);
+const connectDB = require("./server/database/database.js");
+
 
 // activating express
 const app = express();
+// activating mongoose
+connectDB();
 
+// requiring .env file
+require("dotenv").config()//mongo connection
 
 const { route } = require("./server/routes/index");
 
@@ -17,6 +23,7 @@ const { route } = require("./server/routes/index");
 // body-parser middleware
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }));
+
 
 // method override
 app.use(methodOverride("_method"))
@@ -54,6 +61,12 @@ app.use("/", require("./server/routes/index"));
 
 // course router
 app.use("/", require("./server/routes/course"));
+
+// newContent router
+app.use("/", require("./server/routes/contentCreate.js"));
+
+// content router
+app.use("/", require("./server/routes/contentCreate"));
 
 const port = process.env.PORT || 8080;
 

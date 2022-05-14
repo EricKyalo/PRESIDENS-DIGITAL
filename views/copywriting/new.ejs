@@ -1,0 +1,29 @@
+<!-- new Content view page -->
+<section class="new-sermon about-txt">
+    <div class="container pt-3 pb-5 px-3">
+        <h1 class="pb-3">New Content</h1>
+
+    <form action="/contentCreate" method="POST">
+
+      <div class="mb-3">
+        <label for="id" class="form-label">Id</label>
+        <input type="text" value="<%= content.id %>" class="form-control" id="id" name="id" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="title" class="form-label">Title</label>
+        <input type="text" value="<%= content.title %>" class="form-control" id="title" name="title" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="content" class="form-label">Content</label>
+        <textarea class="form-control" id="content" name="content"><%= content.content%></textarea>
+      </div>
+
+   
+          <button type="submit" class="btn btn-primary">Save</button>
+  
+      </form>
+    </div>
+
+</section>
