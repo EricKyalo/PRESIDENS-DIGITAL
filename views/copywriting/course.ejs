@@ -40,10 +40,10 @@
         </div>
         <div class="navlinks">
             <ul class="list">
-                <li><a href="/course/#<%=content.id%>">Welcome</a></li>
-                <li><a href="/menu">Who I am</a></li>
+                <li><a class="chapters" href="/course/#<%=content.id%>">Welcome</a></li>
+                <li><a class="chapters" href="/menu">Who I am</a></li>
                 <li><a href="/#reservation">Chapter 1</a></li>
-                <li><a href="#contacts">Chapter 2</a></li>
+                <li><a class="chapters" href="#contacts">Chapter 2</a></li>
             </ul>
         </div>
     </div>
@@ -94,9 +94,10 @@
 
 
 <div class=" google container">
-    <iframe class="google" src="<%=content.content%>"></iframe>
+    <iframe class="google loading" src="<%=content.title%>"></iframe>
 </div>
 
 </div>
 
 </section>
+

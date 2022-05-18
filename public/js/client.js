@@ -1,3 +1,5 @@
+
+
 const dropdown = document.querySelectorAll(".sect");
 
 dropdown.forEach((dropdown) => {
@@ -23,3 +25,15 @@ dropdown.forEach((dropdown) => {
     });
   });
 });
+
+
+// const links = document.querySelectorAll(".chapters");
+// links.addEventListener("click", (event)=> {
+//   event.preventDefault();
+//   fetch ('/chapters/${chapterId}', {
+//     method: "get",
+//     chapterID: chapterID
+//   }).then(function(response){
+//     res.send(response)
+//   })
+// })

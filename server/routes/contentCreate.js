@@ -10,9 +10,9 @@ router.get("/contentCreate", (req, res) => {
 
 
 // post route
-router.post("/contentCreate", async (req, res) => {
+router.post("/contentCreate", async(req, res) => {
     let content = new Content({
-        id: req.body.id,
+        chapterID: req.body.chapterID,
         title:  req.body.title,
         content: req.body.content
     })
